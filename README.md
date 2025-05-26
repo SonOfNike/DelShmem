@@ -1,0 +1,2 @@
+# DelShmem
+delete shared memory
