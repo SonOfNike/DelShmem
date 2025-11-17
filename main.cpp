@@ -16,5 +16,11 @@ int main() {
     // Remove the Resp shared memory object (if this is the last process)
     shm_unlink(RESP_shm_name);
 
+    // Remove the Error shared memory object (if this is the last process)
+    shm_unlink(ERROR_shm_name);
+
+    // Remove the Log shared memory object (if this is the last process)
+    shm_unlink(LOG_shm_name);
+
     return 0;
 }
